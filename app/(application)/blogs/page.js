@@ -1,4 +1,7 @@
 import Link from "next/link";
+export const metadata = {
+    title: "Blogs",
+}
 
 export default async function Blogs({ params }){
     console.log(await params)
